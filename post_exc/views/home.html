@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home Races</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+     <!-- <script src="main.js"></script> -->
+</head>
+<body>
+    <div class = "container" > <h1> Races </h1>
+    <ul>
+        {% for tri in tri %}
+        <li> {{tri.title}}, year: {{tri.year}} </li>
+        {% else %}
+    </ul>
+    {% endfor %}
+
+</div>
+    
+    <a href="/new">  New Race </a>
+</body>
+</html>

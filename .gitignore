@@ -1,0 +1,4 @@
+node_modules/
+package-lock.json
+post_exc/node_modules/
+post_exc/package-lock.json

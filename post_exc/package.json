@@ -1,0 +1,19 @@
+{
+  "name": "post_exc",
+  "version": "1.0.0",
+  "description": "mongodb homework1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alejo coy",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.3",
+    "consolidate": "^0.15.1",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.3",
+    "nunjucks": "^3.1.3"
+  }
+}
