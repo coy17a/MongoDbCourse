@@ -9,6 +9,17 @@ html{   background: #0F2027;  /* fallback for old browsers */
 
   h1 {
       color:white;
+      font-size: 40px;
+  }
+  .red{
+      color:rgba(255, 0, 0, 0.63);
+  }
+  .title {
+      border: 0.5px solid white;
+      border-radius: 20px;
+      margin:5px;
+      padding: 0;
+      line-height: 0px;
   }
 
   ul {
