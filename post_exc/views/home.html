@@ -6,19 +6,21 @@
     <title>Home Races</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
      <!-- <script src="main.js"></script> -->
 </head>
 <body>
-    <div class = "container" > <h1> Races </h1>
+    <div class = "container" > <h1> Triathlons </h1>
     <ul>
         {% for tri in tri %}
         <li> {{tri.title}}, year: {{tri.year}} </li>
         {% else %}
     </ul>
     {% endfor %}
-
+ <div class="next submit">    <a href="/new">  New Race </a> 
+     </div>
+ 
 </div>
-    
-    <a href="/new">  New Race </a>
+   
 </body>
 </html>

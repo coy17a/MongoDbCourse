@@ -44,7 +44,7 @@ html{   background: #0F2027;  /* fallback for old browsers */
   .input {
       color:#3c3c3c;
       font-family: 'Roboto', sans-serif;
-    font-weight:500;
+      font-weight:500;
       font-size: 18px;
       border-radius: 0;
       line-height: 22px;
